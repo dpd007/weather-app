@@ -1,0 +1,6 @@
+.logout__btn {
+  font-size: 1.5rem;
+}
+.logout__btn:hover {
+  border: 1px solid #fff;
+}
