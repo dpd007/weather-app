@@ -1,0 +1,67 @@
+.card {
+  width: 400px;
+  border: 1px solid #fff;
+  background: none;
+}
+
+.login__btn {
+  color: #fff;
+  background: linear-gradient(
+    135deg,
+    rgba(176, 106, 252, 1) 39%,
+    rgba(116, 17, 255, 1) 101%
+  );
+  width: 100%;
+}
+.login__btn:hover {
+  color: #fff;
+  background: linear-gradient(
+    135deg,
+    rgba(176, 106, 252, 1) 39%,
+    rgba(116, 17, 255, 1) 101%
+  );
+}
+
+.nav-pills {
+  display: table !important;
+  width: 100%;
+}
+.nav-link {
+  background: linear-gradient(
+    135deg,
+    rgba(176, 106, 252, 1) 39%,
+    rgba(116, 17, 255, 1) 101%
+  );
+}
+
+.form {
+  padding: 10px;
+  height: 300px;
+}
+
+.form input {
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+
+.form input:focus {
+  box-shadow: none;
+}
+
+.form button {
+  margin-top: 20px;
+}
+.email__holder::placeholder {
+  color: black;
+  opacity: 1;
+}
+.email__holder:focus {
+  color: black;
+}
+.password__holder::placeholder {
+  color: black;
+  opacity: 1;
+}
+.password__holder:focus {
+  color: black;
+}
