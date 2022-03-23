@@ -1,0 +1,8 @@
+.currentDay {
+  background-image: url("./img/mountain.jpg");
+
+  object-fit: contain;
+}
+.details {
+  padding-top: 20px;
+}
