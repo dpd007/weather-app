@@ -11,7 +11,7 @@ const Login = () => {
   const dispatch = useDispatch();
   const submitHandler = (e) => {
     e.preventDefault();
-    if (email === "dasdurga923@gmail.com" && password === "1234") {
+    if (email === "test@gmail.com" && password === "1234") {
       dispatch(actions.login());
     } else {
       alert("Email or Passoword is incorrect. Please try again!!");
