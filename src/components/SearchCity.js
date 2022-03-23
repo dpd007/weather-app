@@ -1,4 +1,4 @@
-import "./SearchCity.css";
+import "./css/SearchCity.css";
 const cities = ["Bhubaneswar", "Cuttack", "New Delhi", "Pune"];
 const SearchCity = (props) => {
   const searchHandler = (e) => {

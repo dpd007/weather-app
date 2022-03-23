@@ -3,7 +3,7 @@ import Header from "./Header";
 import { useDispatch, useSelector } from "react-redux";
 import { authActions as actions } from "../app/Auth/AuthSlice";
 import { Navigate } from "react-router-dom";
-import "./Login.css";
+import "./css/Login.css";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

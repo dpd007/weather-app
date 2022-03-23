@@ -1,7 +1,7 @@
 import React from "react";
 import CurrentDay from "./CurrentDay";
 import Forecast from "./Forecast";
-import "./Weather.css";
+import "./css/Weather.css";
 
 const Weather = ({ data, forecastData }) => {
   return (
