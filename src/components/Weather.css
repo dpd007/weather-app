@@ -1,8 +1,26 @@
 .currentDay {
   background-image: url("./img/mountain.jpg");
-
   object-fit: contain;
+}
+.currentDay div h4 {
+  padding-top: 65px;
+  font-weight: 900;
 }
 .details {
   padding-top: 20px;
+}
+.days__contaienr ul {
+  list-style-type: none;
+  box-shadow: 0 0 50px -5px rgb(0 0 0 / 25%);
+  background-color: var(--bg-color--card);
+  border-radius: 10px;
+}
+.days__contaienr ul {
+  display: flex;
+}
+.days__contaienr ul li {
+  width: 10rem;
+}
+.days__contaienr ul li img {
+  width: 40px;
 }
