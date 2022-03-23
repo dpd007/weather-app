@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import SearchCity from "./SearchCity";
 import { get } from "axios";
 import Weather from "./Weather";
-const API_KEY = "dc48d814579cd8bd974bb0e057b81e6a";
+const API_KEY = "";
 const url = "https://api.openweathermap.org/data/2.5/weather?";
 const urlForecast = "https://api.openweathermap.org/data/2.5/forecast?";
 const Home = () => {
