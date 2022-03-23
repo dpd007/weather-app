@@ -11,14 +11,13 @@ const Login = () => {
   const dispatch = useDispatch();
   const submitHandler = (e) => {
     e.preventDefault();
-    // if (email === "dasdurga923@gmail.com" && password === "1234") {
-    //   dispatch(actions.login());
-    // } else {
-    //   alert("Email or Passoword is incorrect. Please try again!!");
-    //   setEmail();
-    //   setPassword();
-    // }
-    dispatch(actions.login());
+    if (email === "dasdurga923@gmail.com" && password === "1234") {
+      dispatch(actions.login());
+    } else {
+      alert("Email or Passoword is incorrect. Please try again!!");
+      setEmail();
+      setPassword();
+    }
   };
   if (isAuthenticated) {
     return <Navigate to="/home" />;
